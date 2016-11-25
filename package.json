@@ -1,0 +1,13 @@
+{
+  "name": "webpack-dev-hot-boilerplate",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Natalie Akam"
+}
