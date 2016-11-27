@@ -7,7 +7,14 @@
     "express": "^4.14.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app/server/index.js",
+    "build": "webpack"
   },
-  "author": "Natalie Akam"
+  "author": "Natalie Akam",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
 }
